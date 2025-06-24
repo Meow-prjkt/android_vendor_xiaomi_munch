@@ -13,7 +13,7 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.primary.munch",
+    name: "audio.primary.kona",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -21,7 +21,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/hw/audio.primary.munch.so",
+                "proprietary/vendor/lib/hw/audio.primary.kona.so",
             ],
             shared_libs: [
                 "libbase",
@@ -29,7 +29,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libtinyalsa",
                 "libtinycompress",
-                "libaudioroute",
+                "libaudioroute-v34",
                 "libaudioutils",
                 "libexpat",
                 "libhidlbase",
@@ -128,7 +128,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libtinyalsa",
-                "libaudioroute",
+                "libaudioroute-v34",
                 "libexpat",
                 "libc++",
                 "libc",
