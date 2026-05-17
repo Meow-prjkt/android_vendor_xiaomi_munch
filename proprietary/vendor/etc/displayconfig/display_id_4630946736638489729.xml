@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-
+<!-- MIUI ADD: Adapt_MIUIAdaptFrame-->
 <displayConfiguration>
     <!-- Global Brightness-Nit mapping -->
     <screenBrightnessMap>
         <point>
-            <value>0.000732601</value>
+            <value>0.00097704</value>
             <nits>2.0</nits>
         </point>
         <point>
-            <value>0.4998779</value>
+            <value>0.49975574</value>
             <nits>500.0</nits>
         </point>
         <point>
@@ -19,7 +19,7 @@
     <!-- root node for HBM-->
     <highBrightnessMode enabled="true">
         <!-- Transition point brightness from normal to HBM mode -->
-        <transitionPoint>0.4998779</transitionPoint>
+        <transitionPoint>0.49975574</transitionPoint>
         <!-- Minimum lux to enter HBM -->
         <minimumLux>6001</minimumLux>
         <!-- Time limitation for HBM-->
@@ -52,3 +52,4 @@
     <ambientLightHorizonLong>3000</ambientLightHorizonLong>
     <ambientLightHorizonShort>1000</ambientLightHorizonShort>
 </displayConfiguration>
+<!-- END Adapt_MIUIAdaptFrame-->
